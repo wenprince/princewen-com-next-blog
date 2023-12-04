@@ -11,6 +11,7 @@ export default withNextra({
   reactStrictMode: true,
   trailingSlash: true,
   cleanDistDir: true,
+  output: 'export',
 
   // Image Loaders
   images: {
