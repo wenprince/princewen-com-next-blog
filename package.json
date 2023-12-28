@@ -1,6 +1,6 @@
 {
   "name": "princewen-cn-next-blog",
-  "author": "Princewen <admin@princewen.cn>",
+  "author": "Princewen <admin@princewen.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next",

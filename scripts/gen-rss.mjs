@@ -12,9 +12,9 @@ const msgDone = '\x1b[0m[\x1b[32m DONE \x1b[0m]'
 async function generate() {
   try {
     const feed = new RSS({
-      title: "普林斯 Princewen.cn",
-      site_url: 'https://www.princewen.cn',
-      feed_url: 'https://www.princewen.cn/feed.xml',
+      title: "Princewen.com",
+      site_url: 'https://www.princewen.com',
+      feed_url: 'https://www.princewen.com/feed.xml',
     })
 
     const dirPath = join('./pages/posts')
