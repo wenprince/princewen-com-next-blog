@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.princewen.cn',
+  siteUrl: 'https://www.princewen.com',
   generateRobotsTxt: true,
   autoLastmod: true,
   generateIndexSitemap: true,

@@ -2,13 +2,13 @@ import { useRouter } from 'next/router'
 
 const Head = ({ meta }: { meta: { title: string; description: string; image: string } }) => {
   // Site info
-  const Site = `普林斯 Princewen.cn`
+  const Site = `Princewen.com`
   const twitterCard = `https://s3.zstatic.net/images/2023/12/04-e9b0de701bbee56d7a95a81dcebdecc6.png!style:auto`
 
   // Get router
   const router = useRouter()
   const canonicalUrl = (
-    `https://www.princewen.cn` + (router.asPath === '/' ? '' : router.asPath)
+    `https://www.princewen.com` + (router.asPath === '/' ? '' : router.asPath)
   ).split('?')[0]
 
   // Get Current Title
@@ -20,7 +20,7 @@ const Head = ({ meta }: { meta: { title: string; description: string; image: str
       <meta name="robots" content="noodp" />
       <title>{currentTitle}</title>
       <meta name="title" content={currentTitle} />
-      <meta name="author" content="Princewen.cn" />
+      <meta name="author" content="princewen.com" />
       <meta name="description" content={meta.description} />
       <link rel="canonical" href={canonicalUrl} />
 

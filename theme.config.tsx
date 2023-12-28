@@ -21,7 +21,7 @@ const NextraThemeConfig = {
       <hr />
       <div className="grid auto-cols-min grid-flow-col gap-8 text-xl ss:gap-4">
         <Link
-          href="https://www.zstatic.net/?utm_source=www.princewen.cn"
+          href="https://www.zstatic.net/?utm_source=www.princewen.com"
           target="_blank"
           rel="noreferrer"
           aria-label="Paperclip"
@@ -30,7 +30,7 @@ const NextraThemeConfig = {
           <FaPaperclip />
         </Link>
         <Link
-          href="mailto:admin@princewen.cn"
+          href="mailto:admin@princewen.com"
           target="_blank"
           rel="noreferrer"
           aria-label="MailBulk"
@@ -48,7 +48,7 @@ const NextraThemeConfig = {
           京ICP备2023007558号-1
         </a>
       </div>{' '}
-      <div className="float-right"> © Princewen.cn</div>
+      <div className="float-right"> © princewen.com</div>
       <p></p>
       </small>
     </div>
