@@ -27,3 +27,4 @@ export default withNextra({
     // webpackBuildWorker: true,
   },
 })
+

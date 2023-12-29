@@ -20,7 +20,7 @@ const Head = ({ meta }: { meta: { title: string; description: string; image: str
       <meta name="robots" content="noodp" />
       <title>{currentTitle}</title>
       <meta name="title" content={currentTitle} />
-      <meta name="author" content="princewen.com" />
+      <meta name="author" content="Princewen.com" />
       <meta name="description" content={meta.description} />
       <link rel="canonical" href={canonicalUrl} />
 

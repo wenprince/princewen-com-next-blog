@@ -41,3 +41,5 @@ public/robots.txt
 
 # .env
 .env
+# Edgio generated build directory
+.edgio
