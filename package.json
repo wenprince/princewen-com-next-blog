@@ -1,8 +1,8 @@
 {
-  "name": "princewen-cn-next-blog",
-  "author": "Princewen <admin@princewen.com>",
-  "license": "MIT",
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -12,6 +12,9 @@
     "prod": "pnpm prebuild && pnpm build && pnpm postbuild",
     "prepare": "husky install"
   },
+  "name": "princewen-cn-next-blog",
+  "author": "Princewen <admin@princewen.com>",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "gray-matter": "^4.0.3",
@@ -28,6 +31,12 @@
     "tailwindcss": "^3.3.5"
   },
   "devDependencies": {
+    "@edgio/cli": "^7.7.1",
+    "@edgio/core": "^7.7.1",
+    "@edgio/devtools": "^7.7.1",
+    "@edgio/next": "^7.7.1",
+    "@edgio/prefetch": "^7.7.1",
+    "@edgio/react": "^7.7.1",
     "@next/env": "^14.0.1",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.33",

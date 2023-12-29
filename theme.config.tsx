@@ -43,12 +43,13 @@ const NextraThemeConfig = {
         </Link>
       </div>
       <small className="mt-32 block text-p-light dark:text-inherit">
-      <div className="float-left">
-        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
-          京ICP备2023007558号-1
-        </a>
-      </div>{' '}
-      <div className="float-right"> © princewen.com</div>
+        <abbr
+          title="This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+          className="cursor-help"
+        >
+          CC BY-NC 4.0
+        </abbr>{' '}
+      <div className="float-right">© Princewen.com</div>
       <p></p>
       </small>
     </div>
